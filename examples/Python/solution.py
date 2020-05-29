@@ -7,7 +7,7 @@ def _relative_path(path):
     return os.path.join(script_dir, path)
 
 FILENAME = _relative_path("../TestData/test_mesh.ply")
-OUTPUT_FILE = _relative_path("../Results/results_py.txt")
+OUTPUT_FILE = _relative_path("../Results/results.txt")
 
 # \brief helper function that performs depth first search
 # to trace the components of a mesh
